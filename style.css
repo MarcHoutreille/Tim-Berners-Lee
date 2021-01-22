@@ -13,9 +13,9 @@ body {
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 700px;
-    margin-right: 700px;
-    color: #7D7D7D;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: #979797;
     
 }
 .header {
@@ -27,7 +27,7 @@ body {
 }
 
 #highlight {
-    background-color: #7d7d7d88;
+    background-color: #7d7d7d36;
 }
 .header article{
     margin:5px;
@@ -35,7 +35,12 @@ body {
 }
 .header h3 {
     color: #DD5555;
-    font-weight: bold
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.header h4 {
+    font-weight: 800;
 }
 .header button{
     background-color: #DD5555;
@@ -90,6 +95,8 @@ body {
     box-shadow: 1px 1px 1px 1px #DFDFDF;
 }
 
+
+
 .movies h5 {
     justify-content: center;
     align-items: center;
@@ -104,12 +111,13 @@ body {
     background-color: white;
     text-align: justify;
     padding: 40px;
+    padding-left:
 }
 
 .space-odyssey img{
     display: inline;
     float: left;
-    width: 100px;
+    width: 90px;
     padding:12px;
 }
 
