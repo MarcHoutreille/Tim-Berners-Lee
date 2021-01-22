@@ -3,7 +3,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #EBEBEB;
-    font-weight: 200;
+    font-weight: 400;
+    font-size: 14px;
 
 }
 
@@ -23,6 +24,10 @@ body {
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px #DFDFDF;
     
+}
+
+#highlight {
+    background-color: #7d7d7d88;
 }
 .header article{
     margin:5px;
