@@ -48,8 +48,7 @@ body {
 }
 
 .icons {
-    display: flex;
-    flex-direction: row;
+    display: block;
     background-color: white;
     margin-top: 10px;
     border-radius: 5px;
@@ -58,6 +57,21 @@ body {
 }
 
 .icons i{
+    text-align: center;
+    justify-content: space-around;
+}
+
+.icons-img {
+    padding-top: 10px;
+    color: #cccccc;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons-txt {
+    color: #cccccc;
+    display: flex;
     justify-content: space-around;
 }
 
@@ -83,7 +97,7 @@ body {
 .movies article{
     
     background-color: white;
-    text-align: left;
+    text-align: justify;
     padding: 40px;
 }
 
@@ -91,7 +105,7 @@ body {
     display: inline;
     float: left;
     width: 100px;
-    padding:10px;
+    padding:12px;
 }
 
 .space-odyssey article {
