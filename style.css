@@ -12,14 +12,11 @@ body {
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 700px;
+    margin-right: 700px;
     color: #7D7D7D;
     
 }
-
-
-
 .header {
     padding: 10px;
     background-color: white;
@@ -51,6 +48,8 @@ body {
 }
 
 .icons {
+    display: flex;
+    flex-direction: row;
     background-color: white;
     margin-top: 10px;
     border-radius: 5px;
@@ -59,10 +58,12 @@ body {
 }
 
 .icons i{
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .movies {
+    display: flex;
+    flex-direction: column;
     margin-top: 10px;
     padding-top: 10px;
     border-radius: 5px;
@@ -70,28 +71,47 @@ body {
     box-shadow: 1px 1px 1px 1px #DFDFDF;
 }
 
-.movies *{
+.movies h5 {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.movies article{
     
+    background-color: white;
+    text-align: left;
+    padding: 40px;
 }
 
 .space-odyssey img{
     display: inline;
     float: left;
+    width: 100px;
+    padding:10px;
+}
+
+.space-odyssey article {
+    float:right;
 }
 
 .hulot img{
     display: inline;
     float: left;
+    width: 100px;
+    padding:10px;
 }
 
 .alien img{
     display: inline;
     float: left;
+    width: 100px;
+    padding:10px;
 }
 
 
 
 
-.movies h5,p {
-
-}
