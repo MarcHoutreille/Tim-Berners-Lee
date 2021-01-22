@@ -36,11 +36,12 @@ body {
 .header h3 {
     color: #DD5555;
     font-weight: bolder;
-    font-size: 19px;
+    font-size:19px;
 }
 
 .header h4 {
-    font-weight: 800;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 .header button{
     background-color: #DD5555;
