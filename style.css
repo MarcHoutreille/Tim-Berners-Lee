@@ -1,0 +1,97 @@
+/* Add new font weights*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EBEBEB;
+    font-weight: 200;
+
+}
+
+.main-wrapper {
+    
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #7D7D7D;
+    
+}
+
+
+
+.header {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #DFDFDF;
+    
+}
+.header article{
+    margin:5px;
+    text-align: left;
+}
+.header h3 {
+    color: #DD5555;
+    font-weight: bold
+}
+.header button{
+    background-color: #DD5555;
+    color:white;
+    margin-top:10px;
+    padding:10px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 0px;
+}
+.header img{
+    border: 3px solid lightgray;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.icons {
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding:30px;
+    box-shadow: 1px 1px 1px 1px #DFDFDF;
+}
+
+.icons i{
+    justify-content: space-between;
+}
+
+.movies {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #DFDFDF;
+}
+
+.movies *{
+    
+}
+
+.space-odyssey img{
+    display: inline;
+    float: left;
+}
+
+.hulot img{
+    display: inline;
+    float: left;
+}
+
+.alien img{
+    display: inline;
+    float: left;
+}
+
+
+
+
+.movies h5,p {
+
+}
