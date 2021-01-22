@@ -19,11 +19,12 @@ body {
     
 }
 .header {
-    padding: 10px;
+    margin-top: 25px;
+    padding: 25px;
     background-color: white;
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px #DFDFDF;
-    
+    margin-bottom:25px;
 }
 
 #highlight {
@@ -65,6 +66,7 @@ body {
     border-radius: 5px;
     padding:30px;
     box-shadow: 1px 1px 1px 1px #DFDFDF;
+    margin-bottom:25px;
 }
 
 .icons i{
@@ -108,7 +110,7 @@ body {
 
 
 .movies article{
-    
+    width: 80%;
     background-color: white;
     text-align: justify;
     padding: 40px;
